@@ -1,0 +1,26 @@
+.container {
+    background-color: var(--action-secondary);
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    width: fit-content;
+    padding-right: 1.5rem;
+    translate: 0;
+
+    @media only screen and (min-width:1000px) {
+        translate: -1em;
+    }
+}
+
+.price {
+    padding: .5rem 1rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-color: var(--action-primary);
+    border-radius: 2rem;
+    width: fit-content;
+    text-decoration: line-through;
+    color: inherit;
+}

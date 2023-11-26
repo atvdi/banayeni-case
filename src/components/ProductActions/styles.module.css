@@ -1,0 +1,35 @@
+.ctaSection {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+}
+
+.actionItem {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: .6rem;
+    border-radius: 50%;
+    background-color: var(--action-secondary);
+    border: none;
+    color: inherit;
+    width: fit-content;
+    height: fit-content;
+}
+
+.cta {
+    transition: all 0.2s ease-in-out;
+    border: none;
+    background-color: var(--text-primary);
+    color: var(--text-tertiary);
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.cta:hover {
+    background-color: var(--cta-hover-primary);
+}

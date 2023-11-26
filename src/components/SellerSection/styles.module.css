@@ -1,0 +1,15 @@
+.info {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    background-color: var(--action-secondary);
+    padding: .25rem;
+    padding-right: .5rem;
+    border-radius: .5rem;
+    width: fit-content;
+}
+
+.modalDescription {
+    font-style: italic;
+}

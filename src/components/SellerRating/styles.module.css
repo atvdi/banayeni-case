@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    background-color: var(--price-bg);
+    color: var(--price-text);
+    padding: .4rem 1rem;
+    border-radius: .25rem;
+    font-weight: 700;
+    align-items: center;
+    width: fit-content;
+}
+
+.container div {
+    height: 1.25rem;
+    line-height: 1.25rem;
+}
+
+.container div span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
