@@ -40,7 +40,7 @@ function Home({
     price,
     instalment,
   },
-}: InferGetServerSidePropsType<typeof getServerSideProps>) {
+}: InferGetServerSidePropsType<typeof getStaticProps>) {
   const {
     main,
     product,
