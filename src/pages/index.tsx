@@ -120,7 +120,13 @@ function Home({
 
 export const getServerSideProps = (async () => {
   const productRaw = await fetch(
-    "https://3d8efbd1-e448-48a4-9b31-a2add5eccd62.mock.pstmn.io/api/Item/1"
+    "https://3d8efbd1-e448-48a4-9b31-a2add5eccd62.mock.pstmn.io/api/Item/1",
+    {
+      method: "GET",
+      headers: {
+        Accept: "application/json",
+      },
+    }
   );
 
   const product = (await productRaw.json()) as IProduct;
