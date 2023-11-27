@@ -118,7 +118,8 @@ function Home({
   );
 }
 
-export const getServerSideProps = (async () => {
+// I would use getServerSideProps but I couldn't without a server. I am using getStaticProps for demonstration
+export const getStaticProps = (async () => {
   const productRaw = await fetch(
     "https://3d8efbd1-e448-48a4-9b31-a2add5eccd62.mock.pstmn.io/api/Item/1",
     {
